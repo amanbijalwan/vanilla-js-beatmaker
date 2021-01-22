@@ -63,15 +63,24 @@ header p {
   transform: scale(1);
   z-index: -1;
 }
-
 @keyframes jump {
   0% {
     bottom: 0%;
     left: 20%;
   }
-  50% {
+  25% {
     bottom: 50%;
+    left: 35%;
+  }
+
+  50% {
+    bottom: 13%;
     left: 50%;
+  }
+
+  75% {
+    bottom: 50%;
+    left: 65%;
   }
 
   100% {
@@ -79,3 +88,4 @@ header p {
     left: 80%;
   }
 }
+
